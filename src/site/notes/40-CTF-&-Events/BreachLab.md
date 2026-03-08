@@ -9,7 +9,7 @@
 > 	- Next Step is now external reconnaissance 
 # Executive Summary of the Lab
 
-![[HomepageLook](/img/user/40-CTF-&-Events/_attachments/BreachLab-HomepageLook-20260307.png)
+![BreachLab-HomepageLook-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-HomepageLook-20260307.png)
 
 ---
 # Phase 1: Reconnaissance
@@ -38,7 +38,7 @@ nmap -sV 172.105.120.202
 
 The Following is the proof of the same
 
-![[NmapScanning](/img/user/40-CTF-&-Events/_attachments/BreachLab-NmapScanning-20260307.png)
+![BreachLab-NmapScanning-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-NmapScanning-20260307.png)
 
 We get information as follows:
 
@@ -94,9 +94,9 @@ Enumerating the target using following command:
 gobuster dir -u 172.105.120.202 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 40 
 ```
 
-![[GobusterScan](/img/user/40-CTF-&-Events/_attachments/BreachLab-Gobuster-1-20260307.png)
+![BreachLab-Gobuster-1-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-Gobuster-1-20260307.png)
 
-![[GobusterScan](/img/user/40-CTF-&-Events/_attachments/BreachLab-Gobuster-2-20260307.png)
+![BreachLab-Gobuster-2-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-Gobuster-2-20260307.png)
 
 ![BreachLab-Gobuster-3-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-Gobuster-3-20260307.png)
 
@@ -111,9 +111,9 @@ Enumerating the target using following command:
 dirsearch -u http://breachlab.securitybrigade.com/ -t 40
 ```
 
-![[DirsearchScan](/img/user/40-CTF-&-Events/_attachments/BreachLab-Dirsearch-1-20260307.png)
+![BreachLab-Dirsearch-1-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-Dirsearch-1-20260307.png)
 
-![[DirsearchScan](/img/user/40-CTF-&-Events/_attachments/BreachLab-Dirsearch-2-20260307.png)
+![BreachLab-Dirsearch-2-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-Dirsearch-2-20260307.png)
 
 After enumeration we have found the `database.sql` in this directory we have found the following 
 which is sensitive 
