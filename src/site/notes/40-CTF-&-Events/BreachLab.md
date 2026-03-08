@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/40-ctf-and-events/breach-lab/","tags":["ctf","securityBrigade","BreachLab","gardenEntry"]}
+{"dg-publish":true,"permalink":"/40-ctf-and-events/breach-lab/","tags":["ctf","securityBrigade","BreachLab"]}
 ---
 
 # Executive Summary of the Lab
@@ -113,8 +113,8 @@ dirsearch -u http://breachlab.securitybrigade.com/ -t 40
 
 ![BreachLab-Dirsearch-2-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-Dirsearch-2-20260307.png)
 
-After enumeration we have found the `database.sql` in this directory we have found the following 
-which is sensitive 
+After enumeration we have found the `database.sql` directory which is following:
+
 ```SQL
 -- FooPhones 2.0 Sample Database with Foreign Key Handling
 
@@ -169,7 +169,7 @@ CREATE TABLE purchases (
 The Credential Used are as follows
 
 Username: `<script>alert(999999)</script>`
-Email: test2@tmail.edu.rs
+Email: `test2@tmail.edu.rs`
 Password: Test@123
 
 
