@@ -22,7 +22,7 @@
 
 The application utilizes the insecure HTTP (Cleartext) protocol instead of the industry-standard HTTPS (TLS/SSL), exposing sensitive user data to potential interception.
 
-> [!mono] Logic Train
+> [!note] Logic Train
 > While reviewing the source code, I identified a custom JavaScript implementation for DOM manipulation. This indicates a potential entry point for **T1059.007 - JavaScript** execution via DOM-based XSS if user input is handled by 'sink' functions like `innerHTML` without sanitization.
 ### Methodology: Network Discovery
 Network discovery is the automated process of identifying, mapping, and monitoring devices (computers, routers, printers, IoT) on a network to maintain an accurate, up-to-date inventory and improve security. It uses protocols like SNMP, LLDP, and ICMP (ping) to map network topology and detect unauthorized or new devices.
@@ -44,7 +44,7 @@ We get information as follows:
 | :--------- | :---- | :------ | :----------------------------- |
 | **80/tcp** | Open  | http    | Apache httpd 2.4.52 ((Ubuntu)) |
 
-> [!mono] Logic Train
+> [!note] Logic Train
 > Using the Nmap scan we have identified the server service use for the target system that is Apache httpd 2.4.52 ((Ubuntu)). A Quick Google search on any existing CVE for this server service we get the Vulnerabilities for that specific server service and for that version of the server. 
 
 #### CVE for Apache httpd 2.4.52 ((Ubuntu)) [^1]
