@@ -66,12 +66,6 @@ We get information as follows:
 > * **Secure Sourcing:** Only pull from official sources via secure links; prioritize **signed packages**.
 > * **Patch Lifecycle:** Retire unmaintained libraries. If a patch isn't available, deploy **virtual patching** (WAF) to mitigate risks.
 > * **Governance:** Establish an ongoing plan for triaging and applying updates throughout the application's lifetime.
- 
-
-[^1]: Derived from [Apache HTTP Server 2.4 vulnerabilities (Fixed in 2.4.53)](https://httpd.apache.org/security/vulnerabilities_24.html#:~:text=Fixed%20in%20Apache%20HTTP%20Server%202.4.53)
-
-[^2]:Derived from [OWASP Top 10 2021 Vulnerable and Outdated System)](https://owasp.org/Top10/2021/A06_2021-Vulnerable_and_Outdated_Components/)
-
 ### Methodology: Directory Fuzzing
 Directory fuzzing is a web enumeration technique that uses automated tools to discover hidden files, directories, or subdomains on a web server by testing thousands of potential paths from a wordlist. It acts like brute-forcing, checking for HTTP status codes (e.g., 200 OK, 301 Redirect) to map out the application's structure. The following is Table of Status Code along with meaning.
 
@@ -175,3 +169,25 @@ Password: Test@123
 
 ![BreachLab-LoginUsingDOMXSS-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-LoginUsingDOMXSS-20260307.png)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+[^1]: Derived from [Apache HTTP Server 2.4 vulnerabilities (Fixed in 2.4.53)](https://httpd.apache.org/security/vulnerabilities_24.html#:~:text=Fixed%20in%20Apache%20HTTP%20Server%202.4.53)
+
+[^2]:Derived from [OWASP Top 10 2021 Vulnerable and Outdated System)](https://owasp.org/Top10/2021/A06_2021-Vulnerable_and_Outdated_Components/)
