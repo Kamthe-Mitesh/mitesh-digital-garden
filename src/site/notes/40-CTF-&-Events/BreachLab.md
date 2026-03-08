@@ -2,12 +2,10 @@
 {"dg-publish":true,"permalink":"/40-ctf-and-events/breach-lab/","tags":["ctf","securityBrigade","BreachLab","gardenEntry"]}
 ---
 
-> [!todo] The Log of workflow
-> 1. 06th March 2026: Got challenge at 1:00 PM, Since was nearly at Magic Bus didnt do much initial resource gathering and infogathering.
-> 2. 07th March 2026:
-> 	- Started at 8:30 PM, Initialised the Note in Obsidian.
-> 	- Next Step is now external reconnaissance 
 # Executive Summary of the Lab
+
+
+
 
 ![BreachLab-HomepageLook-20260307.png](/img/user/40-CTF-&-Events/_attachments/BreachLab-HomepageLook-20260307.png)
 
